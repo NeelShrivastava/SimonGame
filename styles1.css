@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 87, 243);
+
+}
+.whitespace {
+    background-color: black;
+    height: 70vh;
+    width: 70vh;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 10px;
+    
+
+}
+.blackcircle {
+    background-color: black;
+    color: white;
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px; 
+}
+
+.flex1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: right;
+    justify-content: bottom;
+    row-gap: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.flex2{
+    height: 100%;
+    width: 50%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: right;
+    justify-content: bottom;
+    row-gap: 20px;
+}
+.red{
+    background-color: red;
+    height: 50%;
+    width: 100%;
+    border-radius: 100% 0 0% 0%;
+    align-content: right;
+    justify-content: bottom;
+}
+.yellow{
+    background-color: yellow;
+    height: 50%;
+    width: 100%;
+    border-radius: 0% 0 100% 0%;
+    align-content: right;
+    justify-content: bottom;
+
+}
+.blue{
+    background-color: blue;
+    height: 50%;
+    width: 100%;
+    border-radius: 0% 100% 0% 0%;
+    align-content: right;
+    justify-content: bottom;
+
+}
+.green{ 
+    height: 50%;
+    width: 100%;
+    background-color: green;
+    
+    border-radius: 0% 0% 0% 100%;
+    align-content: right;
+    justify-content: bottom;
+}
