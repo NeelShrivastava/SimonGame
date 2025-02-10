@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    
     background-color: rgb(9, 87, 243);
 
 }
@@ -15,6 +16,25 @@ body {
     border-radius: 10px;
     
 
+}
+.Level{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+    border-radius: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+.levelcss{
+    font-size: 80px;
+    margin: 0px;
+    
 }
 .blackcircle {
     background-color: black;
@@ -58,7 +78,7 @@ body {
     row-gap: 20px;
 }
 .red{
-    background-color: red;
+    background-color: #950303;
     height: 50%;
     width: 100%;
     border-radius: 100% 0 0% 0%;
@@ -66,7 +86,7 @@ body {
     justify-content: bottom;
 }
 .yellow{
-    background-color: yellow;
+    background-color: #919102;
     height: 50%;
     width: 100%;
     border-radius: 0% 0 100% 0%;
@@ -75,7 +95,7 @@ body {
 
 }
 .blue{
-    background-color: blue;
+    background-color: #01018a;
     height: 50%;
     width: 100%;
     border-radius: 0% 100% 0% 0%;
@@ -86,7 +106,7 @@ body {
 .green{ 
     height: 50%;
     width: 100%;
-    background-color: green;
+    background-color: #068e06;
     
     border-radius: 0% 0% 0% 100%;
     align-content: right;
